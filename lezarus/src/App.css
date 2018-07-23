@@ -49,9 +49,6 @@
   background-color: #560356;
 }
 
-Router{
-  display:flex;
-}
 
 #options{
   width: 38%;
@@ -60,5 +57,20 @@ Router{
 #logout{
   width: 37%;
   margin-left: 1.1%;
+  display: inline-block;
+}
+
+.awek{
+  width: 80%;
+  height: auto;
+  border: darkorange 1px solid;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.metryka{
+  text-align: left;
+  width: 80%;
   display: inline-block;
 }

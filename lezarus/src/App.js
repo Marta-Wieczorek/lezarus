@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 import Intro from './Intro'
 import Navbar from "./Navbar";
+import KP from "./KP";
 
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         <Router className="Router">
 <div className="right">
     <Navbar/>
-            <Route exact path="/intro" component={Intro} />
+    <Route exact path="/intro" component={Intro} />
+    <Route exact path="/kp" component={KP} />
 
 
 </div>

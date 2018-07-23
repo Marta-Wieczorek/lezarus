@@ -12,7 +12,7 @@ body {
 }
 
 .App-header {
-  background-color: #a538a5;
+  background-color: #441644;
   height: 150px;
   padding: 20px;
   color: white;
@@ -27,7 +27,31 @@ body {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.nav ul{
+  list-style:none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.nav a{
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.nav li{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  border: darkgoldenrod 1px solid;
+  box-shadow: chocolate 1px 1px 1px;
+  margin: 3px;
+  padding: 5px;
+}
+
+Router{
+  display:flex;
+}
+
+.right{
+
 }

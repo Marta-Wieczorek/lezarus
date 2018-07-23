@@ -36,19 +36,28 @@
 }
 
 .nav li{
+  color: goldenrod;
   display: inline-block;
   height: auto;
-  width: auto;
+  width: 80%;
   border: darkgoldenrod 1px solid;
   box-shadow: chocolate 1px 1px 1px;
-  margin: 3px;
+  margin: 3px 0;
   padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 Router{
   display:flex;
 }
 
-.right{
-
+#options{
+  width: 38%;
+  display: inline-block;
+}
+#logout{
+  width: 37%;
+  margin-left: 1.1%;
+  display: inline-block;
 }

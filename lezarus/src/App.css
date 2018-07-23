@@ -74,3 +74,8 @@
   width: 80%;
   display: inline-block;
 }
+
+.metryka_wpis{
+  display:flex;
+  justify-content: space-between;
+}

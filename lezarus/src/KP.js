@@ -6,19 +6,19 @@ class KP extends Component {
             <div className="kp">
                 <div className="awek">Miejsce na awatar</div>
                 <div className="metryka">
-                    <p className="metryka_wpis"><span>Imię:</span> <span>imię-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Imię:</label> <span>imię-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>Rasa:</span> <span>rasa-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Rasa:</label> <span>rasa-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>Szczep:</span> <span>szczep-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Szczep:</label> <span>szczep-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>Płeć:</span> <span>płeć-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Płeć:</label> <span>płeć-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>Wiek:</span> <span>wiek-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Wiek:</label> <span>wiek-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>Lokacja:</span> <span>lokacja-z-propsów</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">Lokacja:</label> <span>lokacja-z-propsów</span></p>
                     <hr />
-                    <p className="metryka_wpis"><span>FPD:</span> <span>FPD-z-propsow</span></p>
+                    <p className="metryka_wpis"><label className="metryka_wpis_label">FPD:</label> <span>FPD-z-propsow</span></p>
                     <hr />
                 </div>
                 <div className="cechy">

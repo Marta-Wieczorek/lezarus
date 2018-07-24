@@ -21,6 +21,15 @@ class KP extends Component {
                     <p className="metryka_wpis"><span>FPD:</span> <span>FPD-z-propsow</span></p>
                     <hr />
                 </div>
+                <div className="cechy">
+                    <ul><p className="stats">Statystyki:</p>
+                        <li>Percepcja: </li>
+                        <li>Siła: </li>
+                        <li>Siła Woli: </li>
+                        <li>Wytrzymałość: </li>
+                        <li>Zręczność: </li>
+                    </ul>
+                </div>
             </div>
         )
     }

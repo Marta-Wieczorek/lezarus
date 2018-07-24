@@ -73,9 +73,18 @@
   text-align: left;
   width: 80%;
   display: inline-block;
+    height: auto;
 }
 
 .metryka_wpis{
   display:flex;
+    height: auto;
   justify-content: space-between;
+    margin:0;
+}
+
+.cechy ul{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
 }

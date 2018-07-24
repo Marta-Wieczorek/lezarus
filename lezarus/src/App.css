@@ -1,6 +1,9 @@
 
 .App {
   text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .App-logo {
@@ -24,10 +27,19 @@
   font-size: large;
 }
 
+.nav{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+}
+
 .nav ul{
   list-style:none;
-  text-align: left;
   text-decoration: none;
+    margin:auto;
+    width:80%;
+    padding-left:0;
 }
 
 .nav a{
@@ -86,7 +98,9 @@
     width: 30%;
     display: inline-block;
 }
-
+.cechy{
+    text-align: left;
+}
 .cechy ul{
     display: inline-block;
     list-style: none;

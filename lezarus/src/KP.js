@@ -1,10 +1,12 @@
 import React, {Component} from "react"
+import {withCharacter} from "./context";
+
 
 class KP extends Component {
     render() {
         return (
             <div className="kp">
-                <div className="awek">Miejsce na awatar</div>
+                <div className="awek">miejsce na awek</div>
                 <div className="metryka">
                     <p className="metryka_wpis"><label className="metryka_wpis_label">Imię:</label> <span>imię-z-propsów</span></p>
                     <hr />
@@ -32,7 +34,8 @@ class KP extends Component {
                 </div>
             </div>
         )
+
     }
 }
 
-export default KP
+export default withCharacter(KP)

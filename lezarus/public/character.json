@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "email": "miss.apollyon@gmail.com",
+    "char_A": [
+      "characterId": "1a",
+      "name": "Seffril",
+      "av": "https://i.pinimg.com/originals/da/25/8a/da258a0152d15b495bed16f9ca8b1afb.jpg",
+      "gender": "Kobieta",
+      "race": "MG",
+      "tribe": "Admin",
+      "age": "unknown",
+      "location": "Ittam",
+      "FPD": 0,
+      "S": 5,
+      "SW": 5,
+      "P": 5,
+      "W": 5,
+      "Z": 5
+    ],
+    "char_B": [
+      "characterId": "1b",
+      "name": "Selka",
+      "av": "https://i.pinimg.com/564x/a9/0f/68/a90f68594fcddae4976258fbb1b657e5.jpg",
+      "gender": "Kobieta",
+      "race": "MG",
+      "tribe": "Admin",
+      "age": "unknown",
+      "location": "Ittam",
+      "FPD": 0,
+      "S": 5,
+      "SW": 5,
+      "P": 5,
+      "W": 5,
+      "Z": 5
+     ],
+  }
+]
